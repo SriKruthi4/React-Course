@@ -1,1 +1,29 @@
-
+1. It is a package manager that helps in managing packages containing different modules that provide different functionalities to our application.
+2. Parcel/Web Pack are Bundlers that are used to make our application production-ready. Bundling is the process of following imported files and merging them into a 
+single file: a “bundle”. This bundle can then be included on a webpage to load an entire app at once.
+3. It is used to parcel to cache information about the project when we build our project. So that when a project is rebuilt it uses .parcel-cache to avoid re-parsing 
+and re-analyzing, this takes very less time to build for subsequent builds.
+4. It is a command to execute packages downloaded using npm.
+5. dependencies are modules that are also required at the runtime on the server side whereas dev dependencies are required only by the developers on his/her 
+machine while development.
+6. It is the removal of dead code. In react applications bundlers are used to do this job automatically. This ensures code is structured properly and has a minimal 
+file size. In production builds, Parcel statically analyzes the imports and exports of each module and removes everything that isn't used. 
+This is called "tree shaking" or "dead code elimination".
+7. As changes are made to the code, Parcel automatically rebuilds the changed files and updates our app in the browser. By default, Parcel fully reloads the page, 
+but in some cases, it may perform Hot Module Replacement (HMR). Hot Module Replacement is the process of updating the modules that are changed in the runtime without a refresh. It uses File Watcher Algorithms to keep track of changes in files.
+8.  1. HMR
+    2. Zero Configuration: Parcel is a zero-configuration build tool for the web. It combines a great out-of-the-box development experience with a scalable 
+    architecture that can take your project from just getting started to a massive production application.
+    3. Tree Shaking
+    4. Minification: Minification reduces the file size of your output bundles by removing whitespace, renaming variables to shorter names, 
+    and many other optimizations. By default, minification is enabled when using the parcel build command
+    5. Super Fast Build Algorithm: As it caches development files in .parcel-cache it takes very less time for the subsequent builds avoiding reparsing and reanalyzing
+    code.
+9.package.json is used to maintain a record of dependencies whereas package-lock.json is created for locking the dependency with the installed version. 
+It describes the exact tree that was generated to allow subsequent installs to have the identical tree.
+10.It is a generated file and is not designed to be manually edited. Its purpose is to track the entire tree of dependencies 
+(including dependencies of dependencies i.e transitive dependencies) and the exact version of each dependency. You should commit package-lock.json to your code repository.
+11.node_modules act as a database for npm.node_modules is a folder that is like a cache for the external modules that your project depends upon.
+It should not be pushed into git as it can be generated on the server side and is extremely large.
+12.dist folder keeps the files minified and makes them production-ready.
+13. Browserslist is a tool that allows specifying which browsers should be supported in your frontend app by specifying "queries" in a config file.
