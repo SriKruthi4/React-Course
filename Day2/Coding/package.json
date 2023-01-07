@@ -1,0 +1,30 @@
+{
+  "name": "nr2",
+  "version": "1.0.0",
+  "description": "Assignment2",
+  
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SriKruthi4/REACT-Day2.git"
+  },
+  "author": "SRI KRUTHI MADUGULA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SriKruthi4/REACT-Day2/issues"
+  },
+  "homepage": "https://github.com/SriKruthi4/REACT-Day2#readme",
+  "devDependencies": {
+    "parcel": "^2.8.2",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "browserslist": [
+    "last 2 versions"
+]
+}
