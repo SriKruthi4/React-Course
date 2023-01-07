@@ -1,0 +1,19 @@
+1. Emmet takes different abbreviations and short expressions passed to it and then converts them into complete code dynamically.Emmet works with different languages such as HTML,CSS,XML etc
+Emmet snippets and expansions are built right into VSC without any extension requirement.
+ex: using .
+      getting <h1></h1> after typing   h1 and enter
+2.The main distinction between a library and framework is regarding program control.Framework inverts the program control i.e it informs the developer of what they require(it controls flow and calls your code) whereas a library is called by a programmer when and where he/she needs it. 
+Integrating a library into an existing project is a lot simpler compared to incorporating frameworks
+3.CDN means Content Delivery Network.The mission of a CDN is to reduce latency. Latency is that annoying delay you experience when trying to access a web page or video stream before it fully loads on your device.In general, going with a CDN provider will help businesses do away with the costs of setting up infrastructure, hosting and servers across the globe.
+4.React was developed for applications (Facebook) that have constantly changing data. Since React is a front-end framework or the “View” in MVC, this means that as the user clicks around and changes the app's data, the view should “react” or change with those user events.React makes it painless to create interactive UIs. Design simple views for each state in your application, and React will efficiently update and render just the right components when your data changes. Declarative views make your code more predictable and easier to debug.
+5. This enables a better error-handling experience in React 16 and later.The purpose of crossorigin attribute is used to share the resources from one domain to another domain
+6. React is the core library used for any UI designed through React whereas ReactDOM is specifically used for browser applications.
+React library is responsible for creating views and the ReactDOM library is responsible to actually render UI in the browser.
+7.The react.production.js is minified i.e reduced in size and optimizes performance and will run on client's machine.On the other hand react.development.js is used by developers
+8.These are used as attributes in script tag
+while loading a webpage there are two things that are happening
+1.HTML Parsing
+2. Loading and executing the script
+when we use async the HTML parsing and loading of the script happen simultaneously.But during the execution of script HTML parsing is blocked and resumed after its completion
+
+when we use defer the HTML parsing and loading of the script happen simultaneously.But only after completion of HTML parsing the script will be executed.
