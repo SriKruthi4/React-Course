@@ -1,0 +1,26 @@
+#header{
+    display:flex;
+    height:100px;
+    background-color: grey;
+    
+}
+#logo
+{
+    height:100px;
+    width:100px;
+    padding-right: 575px;
+ align-self: flex-start;
+}
+#icon
+{
+    height:100px;
+    width:70px;
+    padding-left: 525px;
+    align-self: flex-end;
+}
+#srchbar
+{
+  width:500px;
+  height:25px;
+  align-self: center;
+}
