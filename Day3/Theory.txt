@@ -1,0 +1,15 @@
+JSX?
+It is called JSX, and it is a syntax extension to JavaScript. We recommend using it with React to describe what the UI should look like. JSX may remind you of a template language, but it comes with the full power of JavaScript.
+
+Superpowers of JSX?
+JSX allows us to write HTML elements in JavaScript and place them in the DOM without any createElement()  and/or appendChild() methods.JSX helps us in keeping our code simpler and more elegant when writing large pieces of code.
+JSX converts HTML tags into react elements.
+Faster than normal JavaScript as it performs optimizations while translating to regular JavaScript.
+JSX also allows React to show more useful error and warning messages.
+
+type attribute in <script> tag?
+The type attribute specifies the type of the script. The type attribute identifies the content between the <script> and </script> tags.
+write <script type='text/javascript'> and then put javascript inside of it.
+
+*{TitleComponent} is used to execute Js expression Title inside a Functional Component
+*{<TitleComponent/>} or {<TitleComponent></TitleComponent>} is used in case of Composing Components i.e to use a Functional component inside another one.
