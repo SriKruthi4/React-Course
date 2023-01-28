@@ -1,0 +1,14 @@
+1.JSX is not a requirement for using React
+2.ES6 is not a requirement for using React. React uses ES6, and you should be familiar with some of the new features like Classes. Arrow Functions. Variables etc
+3.{TitleComponent} is used to execute Js expression Title inside a Functional Component
+{<TitleComponent/>} or {<TitleComponent></TitleComponent>} is used in the case of Composing Components i.e to use a Functional component inside another one.
+4.{/**/} - JSX Comment
+5.<></> is same as writing <React.Fragment></React.Fragment>
+6.VirtualDOM is the Representation of DOM
+7. The mechanism to diff one tree with another to determine which parts need to be changed and then update the original DOM with it is called Reconciliation 
+8. React Fiber is a concept of ReactJS that is used to render a system faster and smoother. Each Fiber is aimed at improving the perceived performance for complex React applications. It does so by allowing React to breaking the limits of the call stack. This lets it pause or start rendering work whenever required.
+9. When the parent has multiple children in order to differentiate one from another while reconciliation we use keys.
+10.We can always use index as keys but if another unique key is present it is avoided.
+11.Props are arguments passed into React components. Props are passed to components via HTML attributes. props stands for properties.
+Props are used to store data that can be accessed by the children of a React component. They are part of the concept of reusability. Props take the place of class attributes and allow you to create consistent interfaces across the component hierarchy.
+12.The UI is rendered/generated according to the configuration(data) as sent by Backend ex : is different by locations
